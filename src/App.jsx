@@ -3,6 +3,7 @@ import styles from "./style";
 import Navbar from "./components/Navbar";
 import Innovation from "./components/Innovation";
 import Service from "./components/Service";
+import Process from "./components/Process";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Innovation />
       <Service />
+      <Process />
     </div>
   );
 }
