@@ -1,6 +1,8 @@
 import React from "react";
 import icon from "../assets/icon.png";
 import img2 from "../assets/undraw-img4.svg";
+import rectangle from "../assets/rec-right.svg";
+import test from "../assets/test.png";
 
 function Service() {
   return (
@@ -108,6 +110,32 @@ function Service() {
         </div>
         <div className="md:p-16">
           <img src={img2} alt="" />
+          {/* <img className="-z-1 absolute" src={rectangle} alt="" /> */}
+        </div>
+      </div>
+
+      <div className=" bg-black text-center md:p-20 p-10">
+        <div className="pt-5 text-white">
+          <h2 class="md:text-5xl text-3xl font-extrabold px-10">
+            We help create the right for your business
+          </h2>
+          <br />
+          <br />
+          <p class="lg:text-2xl font-semi sm:text-lg px-15">
+            MMAKTech combines creative thinking, smart development, and a
+            well-defined
+            <br /> business strategy to deliver only the best results to all our
+            clients.
+            <br />
+            <br />
+            MMAKTech combines creative thinking, smart development, and a
+            well-defined
+            <br /> business strategy to deliver only the best results to all our
+            clients.
+          </p>
+          <button class="lg:py-3 lg:px-10 py-2 px-4 lg:text-xl font-bold text-uppercase text-black text-md bg-white uppercase rounded-xl mt-12 hover:bg-orange-400 ease-in duration-300">
+            CONTACT US
+          </button>
         </div>
       </div>
     </section>
