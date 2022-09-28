@@ -5,6 +5,8 @@ import Service from "./components/Service";
 import Process from "./components/Process";
 import Portfolio from "./components/Portfolio";
 import Testimonial from "./components/Testimonial";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Process />
       <Portfolio />
       <Testimonial />
+      <Team />
+      <Footer />
     </div>
   );
 }

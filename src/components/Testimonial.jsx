@@ -15,7 +15,7 @@ function Testimonial() {
           </div>
           <div className="content-center my-24 sm:my-12 grid grid-row-2 text-white mx-4">
             <h1 className="text-3xl sm:text-5xl md:text-5xl">Testimonial</h1>
-            <p className="text-md ">
+            <p className="text-md text-justify">
               "Kave Blocks Team really did some magic in creating our dream
               website into reallity."
             </p>
